@@ -32,18 +32,18 @@ const App = () => (
           <Route path="/browse" element={<Browse />} />
           <Route path="/profile/:id" element={<Profile />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/login" element={<Auth />} />
           <Route path="/signup" element={<Auth />} /> 
-          {/* <Route path="/dashboard" element={<Dashboard />} /> */}
-          {/* <Route path="/create-listing" element={<CreateListing />} /> */}
-          {/* <Route path="/messages" element={<Messages />} /> */}
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/create-listing" element={<CreateListing />} />
+          <Route path="/messages" element={<Messages />} />
           <Route path="/notifications" element={<Notifications />} />
-          {/* <Route path="/careers" element={<Careers />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/press" element={<Press />} />
           <Route path="/success-stories" element={<SuccessStories />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
